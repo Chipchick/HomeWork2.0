@@ -48,7 +48,6 @@ if (lastDigits === 1 && lastTwoDigits !== 11) {
 } else { alert(`Вам ${age} лет`); };
 
 
-
 //Задание 9
 const user = {
     name: 'Валера',
