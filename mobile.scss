@@ -1,0 +1,60 @@
+@media (max-width: 767px) {
+    .center {
+        padding-left: calc(50% - 383px);
+        padding-right: calc(50% - 383px);
+    }
+    .top {
+        width: 375px;
+        &_title {
+            text-align: center;
+            font-size: 32px;
+        }
+        &_slogan {
+            font-size: 14px;
+            text-align: center;   
+        }
+        &_button{
+            display: flex;
+            justify-content: center;
+        }
+    }
+    .product {
+        display: flex;
+        flex-wrap: wrap;
+        width: 375px;
+        &_content{
+            border-radius: 16px;
+            margin-left: 16px;
+            margin-right: 16px;
+        }
+    }
+    .footer {
+        width: 375px;
+        
+        &_info_game_one{
+            text-align: center;
+            
+        }
+        &_title {
+            font-size: 32px;
+        }
+        &_slogan{
+            font-size: 14px;
+        }
+        &_info_game_two{
+            width: 350px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        &_logo{
+            display: flex;
+            justify-content: center;
+            padding-top: 64px;
+            height: 236px;
+        }
+    }
+
+}
