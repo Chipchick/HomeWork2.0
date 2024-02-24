@@ -110,11 +110,11 @@ a {
   .top {
     width: 375px;
   }
-  .top_title {
+  .top_header {
     text-align: center;
     font-size: 32px;
   }
-  .top_slogan {
+  .top_text {
     font-size: 14px;
     text-align: center;
   }
