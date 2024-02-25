@@ -1,6 +1,6 @@
 
 //Задача 1
-/*let i = 0;
+let i = 0;
 while (i < 2) {
     console.log("Привет");
     i++;
@@ -14,7 +14,7 @@ for (let i = 1; i < 6; i++) {
 //Задача 3
 for (let i = 7; i <= 22; i++) {
     console.log(i)
-}*/
+}
 
 //Задача 4
 const obj = {
