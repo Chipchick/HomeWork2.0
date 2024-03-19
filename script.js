@@ -25,7 +25,7 @@ alert(result)
 //Задание 6
 let a = 9;
 let b = 2;
-alert(a % b)*/
+alert(a % b)
 
 //Задание 7
 let num = 1
@@ -69,4 +69,4 @@ alert(user[info]);
 
 // Задание 10
 let username = prompt("Введите Ваше имя");
-alert(`Привет ${username}!`);
+alert(`Привет ${username}!`);*/

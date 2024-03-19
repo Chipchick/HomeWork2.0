@@ -1,0 +1,37 @@
+@media (max-width: 767px) {
+    .center {
+        padding-left: calc(50% - 383px);
+        padding-right: calc(50% - 383px);
+    }
+
+    .top {
+        width: 375px;
+
+        &_header {
+            text-align: center;
+            font-size: 32px;
+        }
+
+        &_text {
+            font-size: 14px;
+            text-align: center;
+        }
+
+        &_button {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .product {
+        display: flex;
+        flex-wrap: wrap;
+        width: 375px;
+
+        &_content {
+            border-radius: 16px;
+            margin-left: 16px;
+            margin-right: 16px;
+        }
+    }
+}
