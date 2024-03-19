@@ -107,9 +107,6 @@ a {
     padding-left: calc(50% - 383px);
     padding-right: calc(50% - 383px);
   }
-  .top {
-    width: 375px;
-  }
   .top_header {
     text-align: center;
     font-size: 32px;
@@ -125,7 +122,6 @@ a {
   .product {
     display: flex;
     flex-wrap: wrap;
-    width: 375px;
   }
   .product_content {
     border-radius: 16px;
