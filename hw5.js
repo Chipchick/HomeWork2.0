@@ -1,6 +1,6 @@
 //Задача 1
 
-function smallerNumber(a, b) {
+/*function smallerNumber(a, b) {
     return (a < b) ? a : b;
 }
 console.log(smallerNumber(1, 2));
@@ -101,7 +101,7 @@ console.log("Площадь круга 1: " + circle1.getArea());
 console.log("Периметр круга 1: " + circle1.getPerimeter());
 
 console.log("Площадь круга 2: " + circle2.getArea());
-console.log("Периметр круга 2: " + circle2.getPerimeter());
+console.log("Периметр круга 2: " + circle2.getPerimeter());*/
 
 
 
