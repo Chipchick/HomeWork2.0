@@ -24,7 +24,7 @@ console.log(numbs.join(' '));
 
 //Задача 4
 
-const num = [[1, 1, 1],[1, 1, 1],[1, 1, 1],]
+const num = [[1, 1, 1], [1, 1, 1], [1, 1, 1],]
 console.log(num);
 
 const num3 = [];
@@ -52,11 +52,17 @@ console.log(filterArr);
 //Задача 7
 
 const a = [9, 8, 7, 6, 5];
-let b = Number(prompt("Введите любое число"));
-if (a.includes(b)) {
-    alert("угадал");
+let b = prompt("Введите любое число");
+if (userInput) {
+    let b = Number(userInput);
+
+    if (!isNan(b) && a.includes(b)) {
+        alert("угадал");
+    } else {
+        alert("Не угадал");
+    }
 } else {
-    alert("Не угадал");
+    alert("Вы ввели не число");
 }
 
 //Задача 8
@@ -69,9 +75,9 @@ console.log(joinArrStr);
 
 //Задача 9
 
-const arr9 = [[1, 2, 3],[4, 5, 6]];
-const resalt = [...arr9[0], ...arr9[1]];
-console.log(resalt);
+const arr9 = [[1, 2, 3], [4, 5, 6]];
+const flatArr9 = arr9.flat();
+console.log(flatArr9);
 
 //Задача 10
 
@@ -87,20 +93,13 @@ console.log(arr11([3, 5, 2]))
 
 //Задача 12
 
-const string = (arrStr) => arrStr.map (el => el.length);
-console.log (string (['дуб', 'пельмень', 'ветер']))
+const string = (arrStr) => arrStr.map(el => el.length);
+console.log(string(['дуб', 'пельмень', 'ветер']))
 
 //Задача 13
 
 function filterNegative(arrey) {
-    let resalt = arrey.filter(function (el) {
-        if (el < 0) {
-            return true
-        } else {
-            return false
-        }
-    })
-    return resalt;
+    return arrey.filter(el => el < 0);
 }
 console.log(filterNegative([2, -4, 7, -9]))
 
@@ -110,22 +109,22 @@ let originalArray = [];
 let evenArray = [];
 
 for (let i = 0; i < 10; i++) {
-  originalArray.push(Math.floor(Math.random() * 11));
+    originalArray.push(Math.floor(Math.random() * 11));
 }
 
 evenArray = originalArray.filter(num => num % 2 === 0);
 
-console.log( originalArray);
-console.log( evenArray);
+console.log(originalArray);
+console.log(evenArray);
 
 //Задача 15
 
 const againArray = [];
 
 for (let i = 0; i < 6; i++) {
-    againArray.push(getRandomNumber(0,10));
+    againArray.push(getRandomNumber(0, 10));
 }
-console.log (againArray);
-let sumAgainArray = againArray.reduce((total, number) => total + number, 0); 
+console.log(againArray);
+let sumAgainArray = againArray.reduce((total, number) => total + number, 0);
 const midAgainArray = sumAgainArray / againArray.length
-console.log (midAgainArray)
+console.log(midAgainArray)
