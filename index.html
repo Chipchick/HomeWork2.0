@@ -11,26 +11,60 @@
 </head>
 
 <body>
-    <div class="top center">
-        <section class="top_content">
-            <h1 class="top_header">Добро пожаловать <br> на мой сайт !</h1>
-            <p class="top_text">Вам предстоит пройти несколько увлекательных<br> игр. Если готов нажимай <b>поехали</b>
-                и
-                <b>приступай</b>
-            </p>
-        </section>
+    <header class="top center">
+        <div class="top_content">
+            <h1 class="top_header">Добро пожаловать </br> на мой сайт !</h1>
+            <h2 class="top_text">Вам предстоит пройти несколько увлекательных </br> игр. Если готов нажимай <b>поехали</b> и <b>приступай</b>
+            </div>
         <div class="top_button">
-            <button class="content_button">Поехали!</button>
+            <button class="content_button" type="submit">Поехали</button>
+        </div>        
+    </header>
+    <section class="section_one center">
+        <div class="game">
+            <a class="section_one_content section_one_content" href="#">Игра 1</a>
+            <a class="section_one_content section_one_content" href="#">Игра 2</a>
+            <a class="section_one_content section_one_content" href="#">Игра 3</a>
         </div>
-
-    </div>
-    <div class="product center">
-        <a class="product_content product_content1">Игра 1</a>
-        <a class="product_content product_content2">Игра 2</a>
-        <a class="product_content product_content3">Игра 3</a>
-    </div>
-    <script src="script.js"></script>
-    <script src="hw3.js"></script>
+    </section>
+    <section class="section_two center">
+        <section class="section_two_info">
+            <div class="section_two_info_game">
+                <div class="section_two_info_game_back">
+                    <div class="section_two_info_game_one">
+                        <h1 class="section_two_title">Времена года!</h1>
+                        <h2 class="section_two_slogan">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</h2>
+                        <div class="section_two_button">
+                            <button class="section_two_content_button"  onclick="monthNumberGame();">Играть</button>
+                        </div>
+                    </div>
+                    <a class="section_two_logo" href="index.html"><img src="img/footer_logo.svg" alt="section_two_logo"></a>
+                </div>
+            
+    
+    
+                <div class="section_two_info_game_back_two">
+                    <div class="section_two_info_game_two">
+                        <h1 class="section_two_title">Запомни слова</h1>
+                        <h2 class="section_two_slogan">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить.</h2>
+                        <div class="section_two_button">
+                            <button class="section_two_content_button" type="submit" onclick="wordsGame()">Играть</button>
+                        </div>
+                    </div>
+                    <a class="section_two_logo" href="index.html"><img src="img/footer_logo_game2.svg" alt="section_two_logo_game2"></a>
+                </div>
+        </section>
+    </section>
+    
+    <footer class="footer center">
+            <p class="footer_text">Все права защищены</p>
+    </footer>
+    
+    <script src="./game_one.js"></script>
+    <script src="./hw6.js"></script>
+    <script src="./game_two.js"></script>
+    <script src="./hw7.js"></script>
 </body>
+
 
 </html>
