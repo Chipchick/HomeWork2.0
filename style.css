@@ -241,4 +241,19 @@ a {
     padding-top: 64px;
     height: 236px;
   }
+  .footer_content_game_1 {
+    text-align: center;
+  }
+  .footer_main {
+    font-size: 32px;
+  }
+  .footer_slogan {
+    font-size: 14px;
+  }
+  .footer_logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 64px;
+    height: 236px;
+  }
 }/*# sourceMappingURL=style.css.map */

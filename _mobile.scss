@@ -69,4 +69,28 @@
             height: 236px;
         }
     }
+
+    .footer {
+
+        &_content_game_1 {
+            text-align: center;
+
+        }
+
+        &_main {
+            font-size: 32px;
+        }
+
+        &_slogan {
+            font-size: 14px;
+        }
+
+        &_logo {
+            display: flex;
+            justify-content: center;
+            padding-top: 64px;
+            height: 236px;
+        }
+    }
+
 }
