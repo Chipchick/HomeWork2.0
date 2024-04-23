@@ -1,7 +1,7 @@
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .center {
-        padding-left: calc(50% - 383px);
-        padding-right: calc(50% - 383px);
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
     .top {
@@ -22,7 +22,11 @@
         }
     }
 
-    .product {
+    .game {
+        flex-wrap: wrap;
+    }
+
+    .section_one {
         display: flex;
         flex-wrap: wrap;
 
@@ -30,6 +34,39 @@
             border-radius: 16px;
             margin-left: 16px;
             margin-right: 16px;
+            height: 230px;
+            width: 250px;
+        }
+    }
+
+    .section_two {
+
+        &_info_game_one {
+            text-align: center;
+
+        }
+
+        &_title {
+            font-size: 32px;
+        }
+
+        &_slogan {
+            font-size: 14px;
+        }
+
+        &_info_game_two {
+            width: 350px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        &_logo {
+            display: flex;
+            justify-content: center;
+            padding-top: 64px;
+            height: 236px;
         }
     }
 
